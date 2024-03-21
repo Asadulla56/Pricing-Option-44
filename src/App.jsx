@@ -1,4 +1,6 @@
 import "./App.css";
+import BarCharts from "./compontents/BarCharts/BarCharts";
+import LineChart from "./compontents/LineChart/LineChart";
 import Nav from "./compontents/Nav/Nav";
 import PriceOptions from "./compontents/PriceOptions/PriceOptions";
 
@@ -13,6 +15,8 @@ function App() {
         Vite + React
       </h1>
       <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
+      <BarCharts></BarCharts>
     </>
   );
 }
